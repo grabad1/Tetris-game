@@ -1,0 +1,110 @@
+h1 {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 5%;
+    font-size: 90%;
+    align-items: center;
+    color: rgb(248, 86, 113);
+    background-color: rgb(252, 212, 212);
+    border: 2px solid rgb(248, 86, 113);
+    border-radius: 3px;
+    position: absolute;
+
+}
+body{
+    background-color: pink;
+}
+.sve {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 70px;
+    height: 85%;
+}
+.gameplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 86, 113);
+    background-color: rgb(252, 212, 212);
+    border: 2px solid rgb(248, 86, 113);
+    border-radius: 3px;
+    width: 65%;
+    height: 100%;
+    max-width: 500px;
+}
+.g {
+    background-color: rgb(250, 235, 208);
+}
+.gr{
+    border-bottom: 1px rgb(248, 86, 113) solid;
+}
+.pom{
+    display: flex;
+    max-width: 300px;
+    margin-left: 1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 86, 113);
+    background-color: rgb(252, 212, 212);
+    border: 2px solid rgb(248, 86, 113);
+    border-radius: 3px;
+    width: 34%;
+    height: 100%;
+}
+.gameplay .tab{
+    border: 3px rgb(248, 86, 113) solid;
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.active{
+    background-color: pink;
+    box-shadow: 1px 2px 3px 0 rgba(231, 137, 137, 0.8) inset;
+}
+.zauzet {
+    background-color: rgb(255, 131, 152);
+    box-shadow: 1px 1px 1px 1px rgba(236, 122, 122, 0.8) inset;
+
+}
+.nzauzet {
+    background-color: white;
+}
+.tab div {
+    height: 5%;
+    width: 10%;
+}
+.nn {
+    display: none;
+}
+table {
+    width: 80%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+td {
+    height: 30px;
+    width: 30px;
+}
+
+.ppom {
+    height: 20;
+    margin-top: 4%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px rgb(248, 86, 113) solid;
+    background-color: white;
+}
+.ppom p {
+    font-size: 15px;
+}
